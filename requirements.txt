@@ -1,0 +1,9 @@
+# Core Libraries
+fastapi
+uvicorn
+
+# Testing
+pytest
+
+# Linting
+flake8

@@ -1,0 +1,19 @@
+{
+	"name": "AI Project Dev Container",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	// This command runs *after* the container is created
+	"postCreateCommand": "make install",
+	// Keep the container running
+	"overrideCommand": false
+}
