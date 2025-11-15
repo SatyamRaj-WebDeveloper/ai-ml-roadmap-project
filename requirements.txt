@@ -2,6 +2,11 @@
 fastapi
 uvicorn
 
+# New ML Libraries
+scikit-learn
+pandas 
+jupyter
+
 # Testing
 pytest
 
